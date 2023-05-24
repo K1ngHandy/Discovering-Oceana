@@ -1,6 +1,6 @@
 // Writing a function statement:
-function startProcess() {
+const startProcess = function() { // proper format for function expression
     console.log('process started') // action to be performed by function
 }
 
-startProcess()
+startProcess() // prints "process started"
