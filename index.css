@@ -6,10 +6,19 @@ body {
 
 #header {
     color: teal;
+    padding: 0.9% 3% 0.9% 3%;
 }
 
 #title {
     text-decoration: underline;
+}
+
+#gallery-container {
+    padding: 1.8% 2.1% 2.1% 2.1%;
+}
+
+img {
+    max-width: 255px;
 }
 
 .section-title {
@@ -18,10 +27,12 @@ body {
     padding-left: 4.5%;
 }
 
-#content {
+.content {
     padding: 2% 3% 3% 3%;
 }
 
-.paragraph {
+p {
     color: black;
+    padding-left: 1.8%;
+    padding-right: 1.8%
 }
