@@ -1,0 +1,27 @@
+body {
+    margin: auto;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+#header {
+    color: teal;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+.section-title {
+    color: #F28500;
+    text-align: left;
+    padding-left: 4.5%;
+}
+
+#content {
+    padding: 2% 3% 3% 3%;
+}
+
+.paragraph {
+    color: black;
+}
