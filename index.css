@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 
-#header {
+.header {
     color: teal;
     padding: 0.9% 3% 0.9% 3%;
 }
@@ -19,6 +19,10 @@ body {
 
 img {
     max-width: 255px;
+}
+
+.header3 {
+    color: red;
 }
 
 .section-title {

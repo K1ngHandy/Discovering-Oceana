@@ -27,3 +27,17 @@ function sampleFunction() { // Creating a function with the same, standard synta
 
 const returnValue = sampleFunction() // Assigning a variable to the called function
 console.log(returnValue) // Prints: "sampleValue"
+
+let totalSpeciesFound = 155 // Holds value of 155
+
+function addOneSpecies() { // Function to add 1 species
+    console.log('Another species has been found')
+    totalSpeciesFound++ // Syntax for adding 1
+    return totalSpeciesFound // Return is important!
+}
+
+const newTotalSpeciesValue = addOneSpecies() // Declares new value to save return value
+const totalSpecies = document.getElementById('total-species')
+totalSpecies.innerHTML = "Total species found: " + newTotalSpeciesValue
+
+console.log(newTotalSpeciesValue) // Prints 156
