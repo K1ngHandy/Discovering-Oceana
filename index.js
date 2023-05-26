@@ -19,3 +19,11 @@ const printProcessTimeInSeconds = function() { // syntax for function expression
 }
 
 printProcessTimeInSeconds() // prints: "Time to complete process: 12.235" and "Slow Process Detected!"
+
+// Returning a value from a function
+function sampleFunction() { // Creating a function with the same, standard syntax
+    return 'sampleValue' // Using the keyword "return" to return value
+}
+
+const returnValue = sampleFunction() // Assigning a variable to the called function
+console.log(returnValue) // Prints: "sampleValue"
