@@ -31,7 +31,7 @@ console.log(returnValue) // Prints: "sampleValue"
 let totalSpeciesFound = 155 // Holds value of 155
 
 function addOneSpecies() { // Function to add 1 species
-    console.log('Another species has been found')
+    console.log('Another species has been found!')
     totalSpeciesFound++ // Syntax for adding 1
     return totalSpeciesFound // Return is important!
 }
