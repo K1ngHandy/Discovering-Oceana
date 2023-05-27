@@ -58,3 +58,15 @@ const currentMackerelPopulation = subtractOneMackerel() // Save return value to 
 
 console.log(currentMackerelPopulation) // Prints 29
 console.log(orangeMackerelPopulation) // Also prints 29
+
+// Making functions accept information
+zone1Population = 34 // Save zone 1 current population count
+zone2Population = 15 // Save zone 2 current population count
+
+function onSpeciesPopulationChange(species, zone1Count, zone2Count) { // Function written to accept 3 arguments
+    zone1Population = zone1Count // Updates value of zone1Population
+    zone2Population = zone2Count // Updates value of zone2Population
+    console.log(species + ' population - Zone1: ' + zone1Population + ', Zone2: ' + zone2Population)
+}
+
+onSpeciesPopulationChange('Bottlenose Dolphin', 21, 27) // Prints "Bottlenose Dolphin population - Zone1: 21, Zone2: 27"
