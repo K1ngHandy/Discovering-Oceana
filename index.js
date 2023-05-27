@@ -41,3 +41,20 @@ const totalSpecies = document.getElementById('total-species')
 totalSpecies.innerHTML = "Total species found: " + newTotalSpeciesValue
 
 console.log(newTotalSpeciesValue) // Prints 156
+
+// Returning a value VS. printing a value
+let orangeMackerelPopulation = 34 // Declare variable to hold population number
+
+function subtractOneMackerel() { // Standard function syntax
+    orangeMackerelPopulation-- // Standard function syntax
+    return orangeMackerelPopulation // Return new population number
+}
+
+subtractOneMackerel()
+subtractOneMackerel()
+subtractOneMackerel()
+subtractOneMackerel()
+const currentMackerelPopulation = subtractOneMackerel() // Save return value to variable
+
+console.log(currentMackerelPopulation) // Prints 29
+console.log(orangeMackerelPopulation) // Also prints 29
