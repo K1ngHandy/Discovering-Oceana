@@ -70,3 +70,20 @@ function onSpeciesPopulationChange(species, zone1Count, zone2Count) { // Functio
 }
 
 onSpeciesPopulationChange('Bottlenose Dolphin', 21, 27) // Prints "Bottlenose Dolphin population - Zone1: 21, Zone2: 27"
+
+// Extracting the First Letters of Each Species
+// let speciesName = "Spanish Shawl Nudibranch"
+// console.log(speciesName[0]) // Prints "S"
+
+let speciesName = "Sea Hare"
+speciesName[1] // If printed to console, prints "e"
+
+let anotherSpeciesName = "Orca"
+anotherSpeciesName[2] // If printed to console, prints "c"
+
+// Determining the Last Letter of the "Name" Category
+let entryOneCategory = "name"
+console.log(entryOneCategory[entryOneCategory.length - 1]) // Checking last letter value; prints "e"
+
+let entryTwoCategory = "names"
+console.log(entryTwoCategory[entryTwoCategory.length - 1]) // prints "s"
