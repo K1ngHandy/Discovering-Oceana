@@ -75,8 +75,8 @@ onSpeciesPopulationChange('Bottlenose Dolphin', 21, 27) // Prints "Bottlenose Do
 // let speciesName = "Spanish Shawl Nudibranch"
 // console.log(speciesName[0]) // Prints "S"
 
-let speciesName = "Sea Hare"
-speciesName[1] // If printed to console, prints "e"
+// let speciesName = "Sea Hare"
+// speciesName[1] // If printed to console, prints "e"
 
 let anotherSpeciesName = "Orca"
 anotherSpeciesName[2] // If printed to console, prints "c"
@@ -87,3 +87,12 @@ console.log(entryOneCategory[entryOneCategory.length - 1]) // Checking last lett
 
 let entryTwoCategory = "names"
 console.log(entryTwoCategory[entryTwoCategory.length - 1]) // prints "s"
+
+// Working with template literals
+const speciesName = 'Garibaldi'
+const weight = '2 lbs'
+const length = '15 in'
+
+const speciesFact = `The ${speciesName} weighs approximately ${weight} and has a length of ${length}.`
+
+console.log(speciesFact)
